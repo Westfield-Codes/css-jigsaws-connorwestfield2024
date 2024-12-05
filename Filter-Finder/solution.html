@@ -19,13 +19,19 @@
             transition:0.5s;
          }
          .container:hover .middle {
-            filter:opacity(1);
+            filter:opacity(100%);
          }
         /* grayscale filter the out images */
          .out {
             filter:grayscale(100%);
          }
-        
+        .container {
+         filter:opacity(100%);
+         transition:0.5s;
+        }
+        .container:hover {
+         filter:opacity(50%);
+        }
         /* hover states section (no css here) */
 
         /* gray-out the images */
